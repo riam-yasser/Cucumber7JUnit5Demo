@@ -1,3 +1,4 @@
+@login
 Feature: Login to HRM Application
 
   Background:
