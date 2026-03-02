@@ -2,6 +2,7 @@ package com.example.actions;
 
 import com.example.locators.HomePageLocators;
 import com.example.utils.HelperClass;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
 public class HomePageActions {
@@ -14,7 +15,7 @@ public class HomePageActions {
     }
 
     //Get Username From Home Page
-    public String getHomePageText(){
-        return homePageLocators.homePageUserName.getText();
+    public WebElement getHomePageText(){
+        return homePageLocators.homePageUserName;
     }
 }
